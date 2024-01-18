@@ -1,0 +1,246 @@
+
+.header-inner1 {
+    width: 100%;
+    padding: 0px 40px;
+    background-color: rgb(65, 68, 72);
+    position: fixed;
+    z-index: 10;
+    opacity: 0.8;
+}
+
+.taiotru {
+    text-decoration: none;
+    padding: 20px 0px;
+    color: white;
+    float: left;
+    display: block;
+}
+
+.uee {
+    line-height: 76px;
+    height: 100%;
+    color: white;
+    background-color: rgb(96, 99, 104);
+    float: right;
+    display: inline;
+    padding: 0px 5px;
+}
+
+.main-inner1 {
+    width: 100%;
+    text-align: center;
+    background-image: url(img/背景.png);
+    background-size: cover;
+}
+
+.main-inner1 p {
+    width: 100%;
+    color: white;
+    opacity: 0.8;
+}
+
+.main-inner1 h1 {
+    letter-spacing: 5px;
+    width: 100%;
+    color: white;
+    opacity: 0.8;
+}
+
+.main-inner1-btn {
+    width: 200px;
+    height: 30px;
+    position: relative;
+    display: inline-block;
+    opacity: 0.8; 
+    border-radius: 5px;
+}
+
+.main-inner1 a { 
+    width: 100%; 
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    color: white;    
+    display: inline-block;
+    line-height: 30px;
+}
+
+.icon-ari {   
+    text-indent: 28px;    
+}
+
+.icon {
+    position: absolute;
+    left: 40px;
+    top: 3px;
+    display: inline-block;  
+    height: 24px;
+    padding: 0px 3px 0px 0px;
+    line-height: 30px;
+}
+
+.x-icon {
+    position: absolute;
+    left: 40px;
+    top: 5px;
+    display: inline-block;  
+    height: 18px;
+    padding: 0px 3px 0px 0px;
+    line-height: 30px;
+}
+
+.ten {
+    color: rgb(195, 16, 16);
+}
+
+.main-inner1-top {
+    padding-top: 120px;
+}
+
+.main-inner1-setumei {
+    margin: 15px 0px 45px 0px;
+}
+
+.or {
+    padding: 15px 0px;
+}
+
+.sakuhinshuu {
+    background-color: rgb(51, 153, 97);
+}
+
+.Facebook {
+    background-color: rgb(68, 46, 206);
+}
+
+.Twitter {
+    background-color: rgb(15, 115, 135);
+}
+
+
+.instagram {
+    background-color: rgb(176, 35, 117);
+}
+
+.main-inner1-bottom {
+    height: 50px;
+}
+
+
+.main-inner2 {
+    background-color: rgb(250, 244, 238);
+    padding: 80px 80px 0px 80px;
+}
+
+.main-inner2 h2 {
+    text-align: center;
+    font-weight: normal;
+}
+
+.main-inner2-contents-contener {
+    padding-top: 50px;
+    display: flex;
+}
+
+.main-inner2-contents {
+    position: relative;
+    width: 25%;
+}
+
+.main-inner2-setumei-img {
+    padding: 5px;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.main-inner2 a {
+    display: block;
+
+    font-weight: bold;
+    color: white;
+    
+    aspect-ratio: 1/1;
+    width: 100%;
+    padding: 5px;
+
+    position: absolute;
+    top: 0px;
+}
+
+.main-inner2-setumei {
+    text-align: center;
+    width: 90%;
+    margin: 15px auto 100px auto;
+    word-break: break-all;
+    font-size: 13px;
+
+}
+
+.main-inner3 {
+    text-align: center;
+}
+
+.main-inner3 h2 {
+    font-weight: normal;
+    margin-top: 100px;
+}
+
+.main-inner3 h3 {
+    font-weight: normal;
+    margin-bottom: 50px;
+}
+
+.main-inner3 a {
+    box-shadow: 0px 7px rgb(43, 90, 73);
+    padding: 15px 40px;
+    color: white;
+    background-color: rgb(69, 147, 121);
+    border-radius: 5px;
+    margin-bottom: 80px;
+}
+
+.main-inner3-bottom {
+    padding-bottom: 60px;
+}
+
+a {
+    opacity: 0.8;
+}
+
+a:hover
+,.main-inner1-btn:hover{
+    opacity: 1;
+}
+
+
+
+.header-inner1-btn:active
+,.main-inner2-btn:active {
+    color: black;
+}
+
+
+.main-inner1-btn:active {
+    background-color: black;
+    opacity: 1;
+}
+
+.main-inner3-btn:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+.hooter-inner1  {
+    padding: 0px 80px;
+    border-top: 1px solid rgb(209, 208, 208);
+}
+
+.hooter-inner1 h2 {
+    padding-top: 20px;
+}
+
+.hooter-inner1 p {
+    font-size: 12px;
+    padding-bottom: 20px;
+}
