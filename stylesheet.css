@@ -1,6 +1,6 @@
 .heder-inner0{
     width: 100%;
-    height: 80px;    
+    height: 60px;    
     padding: 0px 40px;
     background-color: rgb(65, 68, 72);
     position: fixed;
@@ -10,8 +10,8 @@
 
 .header-outer1 {
     width: 100%;
-    height: 80px;
-    margin-top: 80px;
+    height: 50px;
+    margin-top: 60px;
     padding: 0px 40px;
     background-color: rgb(65, 68, 72);
     position: fixed;
@@ -29,29 +29,27 @@
 .logo {
     position: absolute;
     text-decoration: none;
-    line-height: 80px;
+    line-height: 65px;
     color: white;
-    font-weight: 300;
-    white-space: nowrap;    
-    font-size: 1.3rem;
+    white-space: nowrap;
 }
 
 .menus {
     display: flex;
-    line-height: 80px;
+    line-height: 50px;
     position: absolute;
     right: 0px;
     transform: translateX(50%);
 }
 
 .homeMenu{
-    padding: 0 120px;
+    padding: 0 85px;
 }
 
 .homeMenu p {
     text-decoration: none;
     color: white;
-    font-size: 25px;
+    font-size: 1.6rem;
 }
 
 .homeMenu:hover p{
@@ -60,10 +58,9 @@
 
 /* SNS */
 .subMenu1{
-    width: 358%;
+    width: 310%;
     background-color: rgb(65, 68, 72);
     z-index: 10;
-    padding: 20px 0;
     border-bottom: 0.5px solid white;
     display: none;
 }
@@ -92,54 +89,54 @@
 .facebookBox,
 .xBox,
 .instagramBox {
-    padding: 30px 20px;
+    padding: 25px 20px;    
     height: 45px;
     position: relative;
 }
 
 .facebookIcon {
-    width: 30px; 
+    width: 20px; 
     position: absolute;   
-    top: 10px;
-    left: 5px;
+    top: 14px;
+    left: 14px;
 }
 
 .facebook {
     color: white;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     position: absolute; 
     left: 40px;
     transform: translateY(-50%);
 }
 
 .xIcon {
-    width: 25px; 
+    width: 20px; 
     position: absolute;   
-    top: 15px;
-    left: 6px;
+    top: 14px;
+    left: 15px;
 }
 
 .x {
     color: white;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     position: absolute;
-    left: 35px; 
+    left: 40px; 
     transform: translateY(-50%);  
 }
 
 .instagramIcon {
-    width: 30px; 
+    width: 24px; 
     position: absolute;   
-    top: 11px;
-    left: 6px;
+    top: 12px;
+    left: 12px;
 }
 
 .instagram {
     color: white;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     position: absolute;
     left: 38px;  
     transform: translateY(-50%); 
@@ -150,16 +147,9 @@
     width: 170%;
     background-color: rgb(65, 68, 72);
     z-index: 10;
-    padding: 20px 0;
     border-bottom: 0.5px solid white;
-    height: 61px;
     position: relative;
     display: none;
-}
-
-.box {
-    padding: 30px 20px;
-    height: 45px;
 }
 
 .subMenu2:hover a{
@@ -182,8 +172,7 @@
 .profile,
 .comeingSoon {
     width: 100%;
-    font-size: 24px;
-    line-height: 61px;
+    font-size: 20px;
     color: white;
     text-decoration: none;
     position: absolute;
@@ -195,16 +184,9 @@
     width: 150%;
     background-color: rgb(65, 68, 72);
     z-index: 10;
-    padding: 20px 0;
     border-bottom: 0.5px solid white;
-    height: 61px;
     position: relative;
     display: none;
-}
-
-.box {
-    padding: 30px 20px;
-    height: 45px;
 }
 
 .subMenu3:hover a{
@@ -225,8 +207,7 @@
 
 .comeingSoon {
     width: 100%;
-    font-size: 24px;
-    line-height: 61px;
+    font-size: 20px;
     color: white;
     text-decoration: none;
     position: absolute;
@@ -238,15 +219,13 @@
     width: 340%;
     background-color: rgb(65, 68, 72);
     z-index: 10;
-    padding: 20px 0;
     border-bottom: 0.5px solid white;
-    height: 61px;
     position: relative;
     display: none;
 }
 
 .box {
-    padding: 30px 20px;
+    padding: 25px 20px;
     height: 45px;
 }
 
@@ -312,14 +291,14 @@
 .main-inner2 {    
     background: linear-gradient(180deg,rgb(244, 223, 180),rgb(201, 241, 244));
     padding: 80px 0 80px 0;
-    height: 1000px;
+    height: 700px;
     position: relative;
 }
 
 /* 矢印*/
 #leftBtn{
     transform: rotate(-90deg);
-    height: 20%;
+    height: 15%;
     padding-left: 5%;
     position: absolute;
     top: 50%;
@@ -342,7 +321,7 @@
 .main2Item1{
     display: flex;
     flex-wrap: wrap;
-    width: 500px;
+    width: 300px;
     position: absolute;
     top: 25%;
     left: 50%;
@@ -375,9 +354,9 @@
 
 .main2Item1 p{
     font-weight: 500;
-    font-size: 80px;
+    font-size: 50px;
     text-align: center;
-    line-height: 250px;
+    line-height: 150px;
 }
 
 .main2Item1 div img {
@@ -391,7 +370,7 @@
     text-align: center;
     position: relative;
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -432,19 +411,18 @@
 .main2Item3 {
     border: 1px solid black;
     border-radius: 30px;
-    height: 500px;
-    width: 500px;
-    text-align: center;
+    height: 300px;
+    width: 300px;
     position: absolute;
-    top: 25%;
+    top: 30%;
     left: 50%;
     transform: translateX(-50%);
 }
 
 .main2Item3  h1{
-    font-size: 90px;
+    margin-top: 80px;
+    font-size: 50px;
     text-align: center;
-    padding: 130px 30px 30px 30px;
 }
 
 /* メイン2のコントール */
